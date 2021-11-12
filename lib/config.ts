@@ -86,8 +86,9 @@ export const isPreviewImageSupportEnabled: boolean = getSiteConfig(
   false
 )
 
-export const isDev =
-  process.env.NODE_ENV === 'development' || !process.env.NODE_ENV
+// export const isDev =
+//  process.env.NODE_ENV === 'development' || !process.env.NODE_ENV
+export const isDev = true
 
 // where it all starts -- the site's root Notion page
 export const includeNotionIdInUrls: boolean = getSiteConfig(
