@@ -23,15 +23,8 @@ export function getCanonicalPageId(
     var url = getCanonicalPageIdImpl(pageId, recordMap, {
       uuid
     });
-    var t = "ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678",
-    a = t.length,
-    n = "";
-    for (var i = 0; i < 6; i++) {
-      n += t.charAt(Math.floor(Math.random() * a));
-    }
-    console.log("uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu")
-    console.log(url + n)
-    return url + n
+    
+    return url
   }
 }
 
