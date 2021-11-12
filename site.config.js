@@ -8,18 +8,18 @@ module.exports = {
 
   // basic site info (required)
   name: 'Jacian Blog',
-  domain: 'https://www.notion.so/jacian/Jacian-s-Blog-5638b631699c4bc29956381e1f97315f',
+  domain: 'https://notion.jacian.com/',
   author: 'Jacian',
 
   // open graph metadata (optional)
   description: 'Example site description',
-  socialImageTitle: 'Transitive Bullshit',
+  socialImageTitle: 'Jacian\'s Blog',
   socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
-  twitter: '',
+  // twitter: '',
   github: 'JacianLiu',
-  linkedin: '',
+  // linkedin: '',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
