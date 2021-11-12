@@ -21,7 +21,7 @@ export function getCanonicalPageId(
     return override
   } else {
     return getCanonicalPageIdImpl(pageId, recordMap, {
-      true
+      uuid
     })
   }
 }
