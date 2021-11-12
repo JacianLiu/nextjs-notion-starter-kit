@@ -23,6 +23,8 @@ export function getCanonicalPageId(
     var url = getCanonicalPageIdImpl(pageId, recordMap, {
       uuid
     });
+    console.log("uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu")
+    console.log(url)
     return url
   }
 }
